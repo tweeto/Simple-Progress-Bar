@@ -37,7 +37,12 @@ Some examples are available and usable out of the box in [Example](https://githu
 
 #### Snippets
 
+Some snippets are available in [Templates](https://github.com/tweeto/Simple-Progress-Bar/tree/master/src/Library/Templates) folder to speed up your developments.
+
+
 #### Palette
+
+VIs are not accessible through LabVIEW palette yet.
 
 
 ## Documentation
