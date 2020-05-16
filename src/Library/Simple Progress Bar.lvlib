@@ -63,6 +63,11 @@
 		<Item Name="Typedef" Type="Folder">
 			<Item Name="UI Events.ctl" Type="VI" URL="../UI Events.ctl"/>
 		</Item>
+		<Item Name="Windows Taskbar" Type="Folder">
+			<Item Name="Find Window Reference.vi" Type="VI" URL="../Find Window Reference.vi"/>
+			<Item Name="Handle Windows Errors.vi" Type="VI" URL="../Handle Windows Errors.vi"/>
+			<Item Name="Window States.ctl" Type="VI" URL="../Window States.ctl"/>
+		</Item>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -73,4 +78,10 @@
 	<Item Name="Fire Event.vi" Type="VI" URL="../Fire Event.vi"/>
 	<Item Name="Canceled.vi" Type="VI" URL="../Canceled.vi"/>
 	<Item Name="Wait UI.vi" Type="VI" URL="../Wait UI.vi"/>
+	<Item Name="Set Progression State.vi" Type="VI" URL="../Set Progression State.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Set Progression.vi" Type="VI" URL="../Set Progression.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
