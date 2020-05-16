@@ -60,11 +60,13 @@
 			<Item Name="Progress Bar User Interface.vi" Type="VI" URL="../Progress Bar User Interface.vi"/>
 			<Item Name="Create UI Events.vi" Type="VI" URL="../Create UI Events.vi"/>
 		</Item>
+		<Item Name="Typedef" Type="Folder">
+			<Item Name="UI Events.ctl" Type="VI" URL="../UI Events.ctl"/>
+		</Item>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Process Events.ctl" Type="VI" URL="../Process Events.ctl"/>
-		<Item Name="UI Events.ctl" Type="VI" URL="../UI Events.ctl"/>
 	</Item>
 	<Item Name="Create Process Events.vi" Type="VI" URL="../Create Process Events.vi"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
