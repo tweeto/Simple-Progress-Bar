@@ -37,9 +37,8 @@
 	<Item Name="Internal" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Templates" Type="Folder">
-			<Item Name="Custom Wait UI.vit" Type="VI" URL="../Templates/Custom Wait UI.vit"/>
-			<Item Name="For Loop.vit" Type="VI" URL="../Templates/For Loop.vit"/>
-			<Item Name="While Loop.vit" Type="VI" URL="../Templates/While Loop.vit"/>
+			<Item Name="For Loop.vi" Type="VI" URL="../Templates/For Loop.vi"/>
+			<Item Name="While Loop.vi" Type="VI" URL="../Templates/While Loop.vi"/>
 		</Item>
 		<Item Name="User Interfaces" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>

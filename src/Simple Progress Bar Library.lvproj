@@ -28,14 +28,12 @@
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Windows7Taskbar.dll" Type="Document" URL="/&lt;vilib&gt;/TaskbarProgressAPI/Windows7Taskbar.dll"/>
 			</Item>
-			<Item Name="Create Process Events.vi" Type="VI" URL="../Library/Create Process Events.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Open.vi" Type="VI" URL="../Library/Open.vi"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
