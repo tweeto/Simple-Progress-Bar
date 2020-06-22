@@ -34,26 +34,11 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="API" Type="Folder">
-		<Item Name="Progression" Type="Folder">
-			<Item Name="New Item Progression.vi" Type="VI" URL="../New Item Progression.vi"/>
-			<Item Name="New Item Status.vi" Type="VI" URL="../New Item Status.vi"/>
-			<Item Name="New Job Status.vi" Type="VI" URL="../New Job Status.vi"/>
-		</Item>
-		<Item Name="Problems" Type="Folder">
-			<Item Name="Error.vi" Type="VI" URL="../Error.vi"/>
-			<Item Name="Abort.vi" Type="VI" URL="../Abort.vi"/>
-		</Item>
-		<Item Name="Advanced" Type="Folder"/>
-		<Item Name="Explorer Path.vi" Type="VI" URL="../Explorer Path.vi"/>
-		<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-	</Item>
 	<Item Name="Internal" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Templates" Type="Folder">
-			<Item Name="Custom Wait UI.vit" Type="VI" URL="../Templates/Custom Wait UI.vit"/>
-			<Item Name="For Loop.vit" Type="VI" URL="../Templates/For Loop.vit"/>
-			<Item Name="While Loop.vit" Type="VI" URL="../Templates/While Loop.vit"/>
+			<Item Name="For Loop.vi" Type="VI" URL="../Templates/For Loop.vi"/>
+			<Item Name="While Loop.vi" Type="VI" URL="../Templates/While Loop.vi"/>
 		</Item>
 		<Item Name="User Interfaces" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -67,21 +52,14 @@
 			<Item Name="Find Window Reference.vi" Type="VI" URL="../Find Window Reference.vi"/>
 			<Item Name="Handle Windows Errors.vi" Type="VI" URL="../Handle Windows Errors.vi"/>
 			<Item Name="Window States.ctl" Type="VI" URL="../Window States.ctl"/>
+			<Item Name="Set Progression State.vi" Type="VI" URL="../Set Progression State.vi"/>
+			<Item Name="Set Progression.vi" Type="VI" URL="../Set Progression.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Process Events.ctl" Type="VI" URL="../Process Events.ctl"/>
 	</Item>
-	<Item Name="Create Process Events.vi" Type="VI" URL="../Create Process Events.vi"/>
-	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
 	<Item Name="Fire Event.vi" Type="VI" URL="../Fire Event.vi"/>
-	<Item Name="Canceled.vi" Type="VI" URL="../Canceled.vi"/>
-	<Item Name="Wait UI.vi" Type="VI" URL="../Wait UI.vi"/>
-	<Item Name="Set Progression State.vi" Type="VI" URL="../Set Progression State.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Set Progression.vi" Type="VI" URL="../Set Progression.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
+	<Item Name="Bar.lvclass" Type="LVClass" URL="../Class/Bar.lvclass"/>
 </Library>
