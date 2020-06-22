@@ -32,6 +32,30 @@ Open VIP file downloaded in the previous step. VI Package Manager will automatic
 
 Some examples are available and usable out of the box in [Example](https://github.com/tweeto/Simple-Progress-Bar/tree/master/src/Example) folder.
 
+#### Progress Bar Example
+
+This [example](https://github.com/tweeto/Simple-Progress-Bar/blob/master/src/Example/Progress%20Bar%20Example.vi) is the simplest example and illustrates how to use progress bar with a fixed steps count process and an unkown steps count process. 
+
+#### Progress Bar Example Process Error
+
+This [example](https://github.com/tweeto/Simple-Progress-Bar/blob/master/src/Example/Progress%20Bar%20Example%20with%20Process%20Error.vi) illustrates how to send warnings and errors from the process to the progress bar window. Depending on configuration the process can be stopped on errors.
+
+Find more informations on the [Wiki](https://github.com/tweeto/Simple-Progress-Bar/wiki/Error-Handling).
+
+#### Progress Bar Example Process Abort
+
+This [example](https://github.com/tweeto/Simple-Progress-Bar/blob/master/src/Example/Progress%20Bar%20Example%20with%20Process%20Abort.vi) illustrates how to stop progress bar from the process without error.
+
+#### Progress Bar Example User Cancel
+
+This [example](https://github.com/tweeto/Simple-Progress-Bar/blob/master/src/Example/Progress%20Bar%20Example%20with%20User%20Cancel.vi) illustrates how to stop the process when user click on cancel button.
+
+#### Progress Bar Example Multiple Instances
+
+This [example](https://github.com/tweeto/Simple-Progress-Bar/blob/master/src/Example/Progress%20Bar%20Example%20with%20Multiple%20Instances.vi) illustrates how to use multiple instances of progress bar on case of parallel processes.
+
+Find more informations on the [Wiki](https://github.com/tweeto/Simple-Progress-Bar/wiki/Multiple-Instances).
+
 
 ### Development
 
